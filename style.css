@@ -1,0 +1,76 @@
+body {
+    font-family: "Comic Sans MS";
+}
+
+header {
+    background-color: #dab3ff;
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+#about {
+    text-align: left;
+    max-width: 800px; /*Adjust the width*/
+    margin: 0 auto; /*Center*/
+    padding: 2em;
+  }
+  
+  #about h2 {
+    text-align: center;
+  }
+  
+  #about p {
+    text-align: left;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    margin-left: -2px;
+    position: relative;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+#projects {
+    background-color: white;
+}
+
+footer {
+    background-color: #dab3ff;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
