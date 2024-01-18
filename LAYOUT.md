@@ -1,17 +1,19 @@
 # Layout
 **1) allison-pham.github.io**
+- [x] LAYOUT.md
+- [x] README.md: brief intro, technologies used (languages, dev tools), etc.
+
 - [x] about.html
 - [x] blog.html
 - [ ] contact.html
 - [x] index.html: main landing page
-- [x] LAYOUT.md
-- [x] README.md: brief intro, technologies used (languages, dev tools), etc.
+- [x] projects.html
 - [x] script.js
 - [x] style.css
 
 # Empty Folders
 **1) /assets**
-- Images
+- Images<br>
 **2) /projects** (previous, current, future)
 **3) /src** (source code)
 
