@@ -1,6 +1,6 @@
 # Layout
 **1) allison-pham.github.io**
-- [ ] about.html
+- [x] about.html
 - [x] blog.html
 - [ ] contact.html
 - [x] index.html: main landing page
