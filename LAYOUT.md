@@ -7,6 +7,7 @@
 
 **3) /src** (source code)
 - [ ] about.html
+- [ ] blog.html
 - [ ] contact.html
 - [x] index.html: main landing page
 - [x] script.js
