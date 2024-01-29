@@ -3,6 +3,18 @@
 - [x] about.html
 - [x] blog.html
 - [ ] portfolio.html
+    - [ ] business.html
+    - [ ] fashion.html
+    - [ ] humanities.html
+    - [ ] miscellaneous.html
+        - [ ] newspaper-collection.html
+            - clippings & comics
+    - [ ] political-science.html
+    - [ ] psychology.html
+    - [ ] research.html
+    - [ ] social-justice.html
+    - [ ] writing.html
+        - blog & 
 - [x] projects.html
 - [ ] resume.html
 
