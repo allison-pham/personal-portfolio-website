@@ -27,7 +27,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #B58DDE;
+  background-color: #111;
   color: white; /* Ensures text is visible against the hover background */
 }
 
