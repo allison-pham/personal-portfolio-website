@@ -1,7 +1,9 @@
 # Layout
 **1) /src** (source code)
 - [x] about.html
+    - My philosophies in life
 - [x] blog.html
+    - Book reviews, essay summaries, & movie critiques
 - [ ] portfolio.html
     - [ ] business.html
     - [ ] fashion.html
