@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allison</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        background-color: #fbecda;
+      }
+      .navbar {
+        width: 100%;
+        padding: 10px;
+        background-color: #fbecda;
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+      }
+      .navbar a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        margin: 0 10px;
+      }
+      .navbar img {
+        height: 50px;
+      }
+      .container {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        padding-top: 70px; /* Adjusted for navbar height */
+      }
+      .info {
+        flex-basis: 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #fbecda;
+      }
+      .info h1 {
+        margin: 0;
+        font-size: 3em;
+      }
+      .info p {
+        margin: 10px 0 0;
+        font-size: 1.5em;
+      }
+      .scene-container {
+        flex-basis: 67%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fbecda;
+        position: relative;
+      }
+      .scene {
+        width: 80%; /* Adjust the size as needed */
+        padding-bottom: 50%; /* Maintain aspect ratio */
+        position: relative;
+      }
+      .scene canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="imgs/space-bunny.png" alt="Logo" />
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Journal</a>
+      <a href="#">Resume/CV</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="container">
+      <div class="info">
+        <h1>Hi, I'm Allison</h1>
+        <p>I'm a [student, developer, designer]</p>
+      </div>
+      <div class="scene-container">
+        <div class="scene">
+          <canvas id="canvas3d"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <script type="module">
+      import { Application } from "https://unpkg.com/@splinetool/runtime";
+
+      const canvas = document.getElementById("canvas3d");
+      const app = new Application(canvas);
+      app.load("https://prod.spline.design/mSoYgAd1tsmmCLv9/scene.splinecode");
+    </script>
+  </body>
+</html>

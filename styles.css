@@ -1,0 +1,74 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Baloo Tamma 2', Arial, sans-serif;
+  background-color: #fbecda;
+}
+.navbar {
+  width: 100%;
+  padding: 10px;
+  background-color: #fbecda;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  margin: 0 10px;
+}
+.navbar img {
+  height: 80px; /* Adjusted height to make the image bigger */
+  width: auto; /* Maintain aspect ratio */
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding-top: 70px; /* Adjusted for navbar height */
+}
+.info {
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fbecda;
+}
+.info h1 {
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Baloo Tamma 2', Arial, sans-serif;
+}
+.info p {
+  margin: 10px 0 0;
+  font-size: 1.5em;
+  font-family: 'Baloo Tamma 2', Arial, sans-serif;
+}
+.scene-container {
+  flex-basis: 67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbecda;
+  position: relative;
+}
+.scene {
+  width: 80%; /* Adjust the size as needed */
+  padding-bottom: 50%; /* Maintain aspect ratio */
+  position: relative;
+}
+.scene canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
