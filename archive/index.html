@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+</html>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="src/about.html">About</a></li>
+        <li><a href="src/projects.html">Projects</a></li>
+        <li><a href="src/blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="name">
+      <h1>Hello! I'm Al</h1>
+      <div class="rectangle"></div>
+      <p>
+        Welcome to my portfolio! This showcases some of the projects I have been
+        working on.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+    </section>
+
+    <section id="blog-preview">
+      <h2>Latest Blog Posts</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p class="copyright">Copyright © 2024 Al. All rights reserved</p>
+    <!-- Add additional links -->
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    ScrollReveal().reveal("section", {
+      delay: 200,
+      distance: "50px",
+      duration: 800,
+      easing: "ease-in-out",
+      reset: true,
+    });
+  </script>
+</body>
