@@ -5,13 +5,13 @@ html {
     width: 100%;
     height: 100%;
     font-family: 'Baloo Tamma 2', Arial, sans-serif;
-    background-color: #FBECDA;
+    background-color: #fbecda;
 }
 
 .navbar {
     width: 100%;
     padding: 10px 20px;
-    background-color: #FBECDA;
+    background-color: #fbecda;
     display: flex;
     align-items: center;
     justify-content: flex-start; /* Align items to the start (left) */
@@ -23,8 +23,8 @@ html {
 .logo-name {
     display: flex;
     align-items: center;
-    margin-right: 20px; /* Space between the logo and the nav links */
-    margin-left: 20px; /* Left margin to align with "Pathways" */
+    margin-right: 20px; /* Add space between the logo and the nav links */
+    margin-left: 20px; /* Add left margin to align with Pathways */
 }
 
 .logo-name img {
@@ -37,7 +37,7 @@ html {
     font-size: 2em;
     font-weight: bold;
     color: black;
-    /* margin-left: 20px; */
+    /* margin-left: 20px; Remove this margin */
 }
 
 .nav-links {
@@ -46,7 +46,7 @@ html {
     background-color: #FADDBB;
     padding: 10px 20px;
     border-radius: 25px;
-    margin-left: 750px; /* Margin to move the navigation links to the right */
+    margin-left: 750px; /* Add margin to move the navigation links to the right */
 }
 
 .nav-links a {
@@ -61,8 +61,8 @@ html {
     display: flex;
     height: 100vh;
     width: 100%;
-    padding-top: 120px; /* Space for navigation bar */
-    margin-top: -80px; /* Bring content closer to the navigation bar */
+    padding-top: 120px; /* Ensure enough space for navbar */
+    margin-top: -80px; /* Adjust to bring content closer to the navbar */
 }
 
 .info {
@@ -72,7 +72,7 @@ html {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #FBECDA;
+    background-color: #fbecda;
     position: relative; /* Relative positioning */
 }
 
@@ -97,7 +97,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FBECDA;
+    background-color: #fbecda;
     position: relative;
 }
 
@@ -134,15 +134,15 @@ html {
     flex-direction: column;
     align-items: flex-start; /* Align items to the start (left) */
     padding: 20px;
-    background-color: #FBECDA;
+    background-color: #fbecda;
     margin-top: 20px;
-    margin-left: 5%; /* Move to the right */
+    margin-left: 5%; /* Move the entire container to the right */
 }
 
 .pathways-container h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
-    margin-left: 35px; /* Move "Pathways" to the right */
+    /* margin-left: 55px; Remove this margin */
 }
 
 .pathway-box {
@@ -151,7 +151,8 @@ html {
     margin-bottom: 20px;
     border-radius: 15px;
     width: 60%; /* Reduce width */
-    margin-left: 20%; /* Adjust margin */
+    /* margin-left: 20%; Remove this margin */
+    align-self: flex-start; /* Align boxes with the start of the container */
 }
 
 .pathway-box h2 {
@@ -166,5 +167,5 @@ html {
 
 .bear-image {
     width: 150px;
-    align-self: center;
+    align-self: center; /* Center the bear image */
 }
