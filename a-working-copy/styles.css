@@ -1,170 +1,178 @@
 body,
 html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    font-family: 'Baloo Tamma 2', Arial, sans-serif;
-    background-color: #FBECDA;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Baloo Tamma 2', Arial, sans-serif;
+  background-color: #fbecda;
 }
 
 .navbar {
-    width: 100%;
-    padding: 10px 20px;
-    background-color: #FBECDA;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; /* Align items to the start (left) */
-    position: fixed;
-    top: 0;
-    z-index: 1000;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #fbecda;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start (left) */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
 
 .logo-name {
-    display: flex;
-    align-items: center;
-    margin-right: 20px; /* Space between the logo and the nav links */
-    margin-left: 20px; /* Left margin to align with "Pathways" */
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Add space between the logo and the nav links */
+  margin-left: 20px; /* Add left margin to align with Pathways */
 }
 
 .logo-name img {
-    height: 100px;
-    width: auto;
-    margin-right: 10px; /* Space between image and name */
+  height: 100px;
+  width: auto;
+  margin-right: 10px; /* Space between image and name */
 }
 
 .logo-name .name {
-    font-size: 2em;
-    font-weight: bold;
-    color: black;
-    /* margin-left: 20px; */
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  /* margin-left: 20px; Remove this margin */
 }
 
 .nav-links {
-    display: flex;
-    gap: 30px;
-    background-color: #FADDBB;
-    padding: 10px 20px;
-    border-radius: 25px;
-    margin-left: 750px; /* Margin to move the navigation links to the right */
+  display: flex;
+  gap: 30px;
+  background-color: #FADDBB;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-left: 750px; /* Add margin to move the navigation links to the right */
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
-    font-weight: bold;
-    padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 5px 10px;
 }
 
 .container {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    padding-top: 120px; /* Space for navigation bar */
-    margin-top: -80px; /* Bring content closer to the navigation bar */
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  padding-top: 120px; /* Ensure enough space for navbar */
+  margin-top: -80px; /* Adjust to bring content closer to the navbar */
 }
 
 .info {
-    flex-basis: 33%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: #FBECDA;
-    position: relative; /* Relative positioning */
+  flex-basis: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fbecda;
+  position: relative; /* Relative positioning */
 }
 
 .info h1 {
-    margin: 0;
-    font-size: 3em;
-    font-family: 'Baloo Tamma 2', Arial, sans-serif;
-    position: relative; /* Text is positioned relative to parent */
-    z-index: 1;
+  margin: 0;
+  font-size: 3em;
+  font-family: 'Baloo Tamma 2', Arial, sans-serif;
+  position: relative; /* Text is positioned relative to parent */
+  z-index: 1;
 }
 
 .info p {
-    margin: 10px 0 0;
-    font-size: 1.5em;
-    font-family: 'Baloo Tamma 2', Arial, sans-serif;
-    position: relative;
-    z-index: 1;
+  margin: 10px 0 0;
+  font-size: 1.5em;
+  font-family: 'Baloo Tamma 2', Arial, sans-serif;
+  position: relative;
+  z-index: 1;
 }
 
 .scene-container {
-    flex-basis: 67%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #FBECDA;
-    position: relative;
+  flex-basis: 67%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbecda;
+  position: relative;
 }
 
 .scene {
-    width: 80%;
-    padding-bottom: 50%; /* Maintain aspect ratio */
-    position: relative;
+  width: 80%;
+  padding-bottom: 50%; /* Maintain aspect ratio */
+  position: relative;
 }
 
 .scene canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 #typed-text {
-    font-weight: bold;
-    color: #333;
+  font-weight: bold;
+  color: #333;
 }
 
 .ufo-image {
-    width: 175px;
-    position: absolute;
-    top: 350px; /* Move image down */
-    left: 55%;
-    transform: translateX(-50%);
-    z-index: 0;
+  width: 175px;
+  position: absolute;
+  top: 350px; /* Move image down */
+  left: 55%;
+  transform: translateX(-50%);
+  z-index: 0;
 }
 
 .pathways-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the start (left) */
-    padding: 20px;
-    background-color: #FBECDA;
-    margin-top: 20px;
-    margin-left: 5%; /* Move to the right */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start (left) */
+  padding: 20px;
+  background-color: #fbecda;
+  margin-top: 20px;
+  margin-left: 5%; /* Move the entire container to the right */
 }
 
 .pathways-container h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    margin-left: 35px; /* Move "Pathways" to the right */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.pathway-boxes {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping of items */
+  gap: 20px; /* Space between items */
+  justify-content: flex-start; /* Align items to the start (left) */
+  width: 100%;
+  max-width: 60%; /* Limit the width to 60% */
 }
 
 .pathway-box {
-    background-color: #FADDBB;
-    padding: 15px; /* Adjust padding as needed */
-    margin-bottom: 20px;
-    border-radius: 15px;
-    width: 60%; /* Reduce width */
-    margin-left: 20%; /* Adjust margin */
+  background-color: #FADDBB;
+  padding: 15px; /* Adjust padding as needed */
+  border-radius: 15px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  flex: 1 1 calc(50% - 20px); /* Adjust width to fit two items per row */
+  margin-bottom: 20px;
 }
 
 .pathway-box h2 {
-    margin: 0 0 10px 0;
-    font-size: 1.8em;
+  margin: 0 0 10px 0;
+  font-size: 1.8em;
 }
 
 .pathway-box p {
-    margin: 0;
-    font-size: 1.2em;
+  margin: 0;
+  font-size: 1.2em;
 }
 
 .bear-image {
-    width: 150px;
-    align-self: center;
+  width: 150px;
+  align-self: center; /* Center the bear image */
 }
