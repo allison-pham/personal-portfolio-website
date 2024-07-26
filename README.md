@@ -10,3 +10,9 @@ Hello, welcome to my personal website! This site showcases my background, projec
 - **Contact**: attached are my social links (LinkedIn and GitHub)
 
 ## Future Plans
+- Add more dynamic and interactive elements
+    - Objects: computer, keyboard, teapot
+- Incorporate custom design layouts for portfolio section
+- Integrate frameworks
+- Interactive projects
+- Reorganize structure of website
