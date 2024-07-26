@@ -7,9 +7,9 @@ const words = [
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
-const typingSpeed = 500;
-const erasingSpeed = 500;
-const delayBetweenWords = 1000; // Delay between each word
+const typingSpeed = 100;
+const erasingSpeed = 100;
+const delayBetweenWords = 500; // Delay between each word
 
 function type() {
   const currentWord = words[wordIndex];
