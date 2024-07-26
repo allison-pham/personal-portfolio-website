@@ -1,5 +1,5 @@
 # Personal Portfolio Website
-Hello, welcome to my personal website! This site showcases my background, projects, and experiences.
+Hello, welcome to my personal website! This portfolio site showcases my background, skills, projects, and experiences.
 
 ## Features
 - **Home:** displays a 3D design (click the poster!)
@@ -16,3 +16,4 @@ Hello, welcome to my personal website! This site showcases my background, projec
 - Integrate frameworks
 - Interactive projects
 - Reorganize structure of website
+- Responsive design
