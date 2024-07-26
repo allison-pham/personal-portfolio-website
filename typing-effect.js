@@ -1,12 +1,14 @@
-// typing-effect.js
-
 const typedTextElement = document.getElementById("typed-text");
-const words = ["student", "developer", "designer"];
+const words = [
+  "student",
+  "developer interested in AI/ML, Cybersecurity, and SWE",
+  "UI/UX designer",
+];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
-const typingSpeed = 150; // Adjust typing speed here
-const erasingSpeed = 100; // Adjust erasing speed here
+const typingSpeed = 150;
+const erasingSpeed = 120;
 const delayBetweenWords = 2000; // Delay between each word
 
 function type() {
