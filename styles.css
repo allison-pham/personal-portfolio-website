@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 html {
   margin: 0;
@@ -24,7 +28,7 @@ html {
   display: flex;
   align-items: center;
   margin-right: 20px; /* Add space between the logo and the nav links */
-  margin-left: 20px; /* Add left margin to align with Pathways */
+  margin-left: 50px; /* Add left margin to align with Pathways */
 }
 
 .logo-name img {
@@ -37,7 +41,6 @@ html {
   font-size: 2em;
   font-weight: bold;
   color: black;
-  /* margin-left: 20px; Remove this margin */
 }
 
 .nav-links {
@@ -46,7 +49,7 @@ html {
   background-color: #FADDBB;
   padding: 10px 20px;
   border-radius: 25px;
-  margin-left: 750px; /* Add margin to move the navigation links to the right */
+  margin-left: 750px; /* Move navigation links to the left */
 }
 
 .nav-links a {
@@ -74,6 +77,7 @@ html {
   padding: 20px;
   background-color: #fbecda;
   position: relative; /* Relative positioning */
+  margin-left: 250px; /* Adjust this value as needed */
 }
 
 .info h1 {
@@ -90,6 +94,7 @@ html {
   font-family: 'Baloo Tamma 2', Arial, sans-serif;
   position: relative;
   z-index: 1;
+  margin-left: 20px; /* Move the "I'm a 2nd year" text to the right */
 }
 
 .scene-container {
@@ -105,6 +110,7 @@ html {
   width: 80%;
   padding-bottom: 50%; /* Maintain aspect ratio */
   position: relative;
+  margin-left: 50px;
 }
 
 .scene canvas {
@@ -136,7 +142,8 @@ html {
   padding: 20px;
   background-color: #fbecda;
   margin-top: 20px;
-  margin-left: 5%; /* Move the entire container to the right */
+  width: 100%;
+  margin-left: 300px; /* Move container to the right */
 }
 
 .pathways-container h1 {
@@ -144,35 +151,234 @@ html {
   margin-bottom: 20px;
 }
 
+.content-wrapper {
+  display: flex;
+  justify-content: flex-start; /* Align content to the start (left) */
+  align-items: center; /* Align items to the center */
+  width: 100%;
+  gap: 20px; /* Add space between pathway boxes and bear */
+  margin-left: 20px; /* Move content to the right */
+}
+
 .pathway-boxes {
   display: flex;
   flex-wrap: wrap; /* Allow wrapping of items */
   gap: 20px; /* Space between items */
-  justify-content: flex-start; /* Align items to the start (left) */
-  width: 100%;
-  max-width: 60%; /* Limit the width to 60% */
+  flex: 0 1 70%; /* Limit the width */
 }
 
 .pathway-box {
   background-color: #FADDBB;
-  padding: 15px; /* Adjust padding as needed */
+  padding: 10px 20px; /* Reduce padding to remove empty space */
   border-radius: 15px;
   box-sizing: border-box; /* Include padding in width calculation */
-  flex: 1 1 calc(50% - 20px); /* Adjust width to fit two items per row */
-  margin-bottom: 20px;
+  flex: 1 1 calc(50% - 70px); /* Adjust width to reduce length */
+  margin-bottom: 10px;
 }
 
 .pathway-box h2 {
-  margin: 0 0 10px 0;
-  font-size: 1.8em;
+  margin: 0 0 5px 0; /* Reduce margin to decrease box size */
+  font-size: 1.8em; /* Keep font size */
 }
 
 .pathway-box p {
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.2em; /* Keep font size */
+}
+
+.bear-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto; /* Ensure the bear container does not stretch */
 }
 
 .bear-image {
-  width: 150px;
-  align-self: center; /* Center the bear image */
+  width: 250px;
+  margin-left: 100px;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fbecda;
+  width: 100%;
+  margin: 20px auto;
+  margin-left: 300px;
+}
+
+.about-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-image-wrapper {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: #FADDBB;
+  border-radius: 50%;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.about-image {
+  width: 275px;
+  height: auto;
+  position: relative;
+  z-index: 1;
+  left: 150px;
+}
+
+.about-text {
+  max-width: 890px;
+  margin-left: 400px;
+  font-size: 1.6em;
+}
+
+.about-text p,
+.about-text li {
+  font-size: 1.0em;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.about-text ul {
+  list-style-type: disc;
+  padding: 0;
+}
+
+.about-text p:nth-of-type(2) {
+  margin-top: 50px;
+}
+
+/* Tech Skills Section */
+.my-workspace-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fbecda;
+  width: 100%;
+  margin: 20px auto;
+  margin-left: 300px;
+}
+
+.my-workspace-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.my-workspace-content {
+  display: flex;
+  align-items: center; /* Align items to the center vertically */
+  width: 100%;
+}
+
+.my-workspace-image {
+  width: auto;
+  max-width: 100%; /* Ensure the image doesn't overflow */
+  height: auto;
+  margin-left: 50px;
+}
+
+.spaceship-image {
+  margin-left: 20px; /* Space between the two images */
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: 200px;
+}
+
+/* Portfolio Section */
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #fbecda;
+  width: 100%;
+  margin: 20px auto;
+  margin-left: 300px;
+}
+
+.portfolio-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 20px;
+  justify-content: center; /* Center the items */
+}
+
+.portfolio-item {
+  background-color: #FADDBB;
+  padding: 10px 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  text-align: center; /* Center text */
+}
+
+.portfolio-item img {
+  width: 80%; /* Adjust this value as needed for the desired size */
+  height: auto;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio-item h2 {
+  font-size: 1.8em;
+  margin: 10px 0;
+}
+
+.portfolio-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px; /* Adjust the margin as needed */
+  text-align: left; /* Align "Application Sorter" to the left */
+}
+
+.portfolio-item ul {
+  list-style-type: disc; /* Use disc bullets */
+  margin: 0; /* Remove default margin */
+  padding-left: 20px; /* Indent the list */
+  text-align: left; /* Align text to the left */
+}
+
+.portfolio-item ul li {
+  font-size: 1.2em; /* Adjust font size as needed */
+  margin: 5px 0; /* Add some space between items */
+  font-weight: bold; /* Make bullet points bold */
+}
+
+.portfolio-item p {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+/* Adding a media query to adjust the layout for the second row */
+@media (min-width: 768px) {
+  .portfolio-item:nth-child(3),
+  .portfolio-item:nth-child(4),
+  .portfolio-item:nth-child(5) {
+    grid-column: span 1;
+  }
 }
