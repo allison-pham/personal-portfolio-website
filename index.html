@@ -3,274 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Allison Pham</title>
+    <title>Al</title>
+    <link rel="stylesheet" href="styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="images/space-bunny-favicon.ico"
-    />
+
     <script src="https://unpkg.com/scrollreveal"></script>
   </head>
-  <body>
-    <div class="navbar">
-      <div class="logo-name">
-        <img src="images/space-bunny.png" alt="Logo" />
-        <span class="name">ALLISON PHAM</span>
-      </div>
-      <div class="nav-links">
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio and Experience</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="info">
-        <img src="images/ufo.png" alt="UFO" class="ufo-image" />
-        <h1>Hi, I'm Allison</h1>
-        <p>I'm a <span id="typed-text"></span></p>
-      </div>
-
-      <div class="scene-container">
-        <div class="scene">
-          <canvas id="canvas3d"></canvas>
-        </div>
-      </div>
-    </div>
-
-    <script type="module">
-      import { Application } from "https://unpkg.com/@splinetool/runtime";
-
-      const canvas = document.getElementById("canvas3d");
-      const app = new Application(canvas);
-      app.load("https://prod.spline.design/mSoYgAd1tsmmCLv9/scene.splinecode");
-    </script>
-
-    <div class="pathways-container">
-      <h1>Pathways</h1>
-      <div class="content-wrapper">
-        <div class="pathway-boxes">
-          <div class="pathway-box">
-            <h2>Tech Meets Justice!</h2>
-            <p>
-              Focusing on the overlap between tech and justice to center on
-              social good
-            </p>
-          </div>
-          <div class="pathway-box">
-            <h2>Life Optimization</h2>
-            <p>
-              Improving quality through integrating productivity + motivation
-              methodologies
-            </p>
-          </div>
-          <div class="pathway-box">
-            <h2>Healthcare</h2>
-            <p>Elevate health systems in biohacking and precision medicine</p>
-          </div>
-          <div class="pathway-box">
-            <h2>Fintech</h2>
-            <p>
-              Integrating tech with finance to enhance and progress economic
-              development
-            </p>
-          </div>
-        </div>
-        <div class="bear-container">
-          <img
-            src="images/flower-bear-stars.png"
-            alt="Bear"
-            class="bear-image"
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- About -->
-    <div class="about-container" id="about">
-      <h1>About</h1>
-      <div class="about-content">
-        <div class="about-image-wrapper">
-          <div class="circle"></div>
-          <img
-            src="images/bunny-planet-stars.png"
-            alt="Bunny and Bear"
-            class="about-image"
-          />
-        </div>
-        <div class="about-text">
-          <p>
-            I'm a 2nd year student at UC Riverside, where I develop my knowledge
-            in computer science, UI/UX, and advocacy through the projects I
-            create. I'm passionate about tech, design, and justice to enhance
-            innovation, growth, and learning!
-          </p>
-          <p>My focuses include:</p>
-          <ul>
-            <li>AI/ML to combat world issues 🤖</li>
-            <li>User-centered design (UCD) 🎨</li>
-            <li>Robust system integration ⚙️</li>
-            <li>
-              Strategic, data-informed methodology to support dynamic
-              environments 🪴
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- My Workspace -->
-    <div class="my-workspace-container">
-      <h1>My Workspace 💻</h1>
-      <div class="my-workspace-content">
-        <img
-          src="images/workspace-tech-skills.png"
-          alt="Tech Skills"
-          class="my-workspace-image"
-        />
-
-        <img
-          src="images/spaceship-interior-with-cryogen-capsule-window.png"
-          alt="Spaceship Interior"
-          class="my-workspace-image spaceship-image"
-        />
-      </div>
-    </div>
-
-    <!-- Portfolio -->
-    <div class="portfolio-container" id="portfolio">
-      <h1>Portfolio and Experience</h1>
-      <div class="portfolio-grid">
-        <div class="portfolio-item">
-          <h2>BioQuest: Gamification | Healthcare ❤️‍🩹</h2>
-          <img src="images/bioquest.png" alt="BioQuest" />
-        </div>
-
-        <div class="portfolio-item">
-          <h2>YouFlow: Extension of BioQuest ♻️</h2>
-          <img src="images/youflow.png" alt="YouFlow" />
-        </div>
-
-        <div class="portfolio-item">
-          <h2>Ongoing Missions 💻</h2>
-          <h3>Computer Science</h3>
-          <ul>
-            <li>Cozy Chat</li>
-            <ul>
-              <li>Product stage: design + code</li>
-              <li>Currently building: backend</li>
-            </ul>
-
-            <li>Task Flow</li>
-            <ul>
-              <li>Product stage: research</li>
-              <li>Currently building: AI/ML to enhance user experience (UX)</li>
-            </ul>
-
-            <li>Personal Portfolio Website</li>
-            <ul>
-              <li>Project stage: code + deploy</li>
-              <li>Currently building: dynamic + interactive elements</li>
-            </ul>
-          </ul>
-        </div>
-
-        <div class="portfolio-item">
-          <h2>Past Missions 🚀</h2>
-          <h3>Computer Science</h3>
-          <ul>
-            <li>Grocery in One: Machine Learning | Optimization</li>
-            <li>Application Sorter: Automation | Optimization</li>
-            <li>Quick Study: Life Optimization | Study</li>
-            <li>Life Dev</li>
-            <li>Thin Ice: Game Dev | Enjoyment</li>
-            <li>Books Data Analysis</li>
-            <li>Frigerator Sim(ulator)</li>
-            <li>Wifi QR Code Generator</li>
-            <li>Weather Reminder System</li>
-            <li>Flappy Bird</li>
-          </ul>
-        </div>
-
-        <div class="portfolio-item">
-          <h2>Ongoing Experiences 🤹‍♀️</h2>
-          <h3>Computer Science + Research</h3>
-          <ul>
-            <li>Neurology Intern at EvoSol Pediatrics</li>
-            <li>Software Engineering Fellow at Headstarter AI</li>
-            <li>Project and Workshop Coordinator at Gamespawn</li>
-            <li>Event Chair at ACM</li>
-          </ul>
-
-          <h3>Business</h3>
-          <ul>
-            <li>Co-Director of Events and Community Management at Cosmic-us</li>
-            <li>Global Cross Intern Program Events Mentor</li>
-          </ul>
-
-          <h3>Justice + Policy</h3>
-          <ul>
-            <li>Founder and Executive Director at HOPE Awareness</li>
-            <li>Deputy Executive Director at Detester Magazine</li>
-            <li>
-              Bourns College of Engineering Senator at Associated Students of UC
-              Riverside
-            </li>
-          </ul>
-        </div>
-
-        <div class="portfolio-item">
-          <h2>Past Experiences 🛠️</h2>
-          <h3>Computer Science + Design</h3>
-          <ul>
-            <li>Reader (Grader) at UC Riverside</li>
-            <li>UI/UX Designer at DesignVerse</li>
-            <li>Junior Officer at Gamespawn</li>
-            <li>Intern at ACM</li>
-          </ul>
-
-          <h3>Business</h3>
-          <ul>
-            <li>Director of Marketing and Communications at Prisit</li>
-            <li>Chief Marketing Officer at The STEAM Boat</li>
-            <li>Budget Manager at YouSpoken</li>
-          </ul>
-
-          <h3>Justice + Policy</h3>
-          <ul>
-            <li>
-              Mobilization Coordinator at Associated Students of UCR Riverside
-            </li>
-            <li>Senate Intern at Associated Students of UCR Riverside</li>
-            <li>Executive Fellow at Associated Students of UCR Riverside</li>
-            <li>Content Director at Detester Magazine</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <div class="footer-content">
-        <a href="https://www.linkedin.com/in/imallison" target="_blank">
-          <img src="images/linkedin.png" alt="LinkedIn" />
-        </a>
-
-        <a href="https://github.com/imallison" target="_blank">
-          <img src="images/github.png" alt="GitHub" />
-        </a>
-      </div>
-      <p>Copyright © 2024 Allison Pham. All rights reserved</p>
-    </footer>
-
-    <script src="main.js"></script>
-    <script src="typing-effect.js"></script>
-  </body>
 </html>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="src/about.html">About</a></li>
+        <li><a href="src/projects.html">Projects</a></li>
+        <li><a href="src/blog.html">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="name">
+      <h1>Hello! I'm Al</h1>
+      <div class="rectangle"></div>
+      <p>
+        Welcome to my portfolio! This showcases some of the projects I have been
+        working on.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+    </section>
+
+    <section id="blog-preview">
+      <h2>Latest Blog Posts</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p class="copyright">Copyright © 2024 Al. All rights reserved</p>
+    <!-- Add additional links -->
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    ScrollReveal().reveal("section", {
+      delay: 200,
+      distance: "50px",
+      duration: 800,
+      easing: "ease-in-out",
+      reset: true,
+    });
+  </script>
+</body>
