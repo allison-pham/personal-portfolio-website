@@ -16,10 +16,28 @@ export default function Experience() {
       description: '',
     },
     {
+      title: 'Operations Lead',
+      company: 'Citrus and Cutie Hack',
+      period: 'July 2024 - Present',
+      description: '',
+    },
+    {
+      title: 'Bourns College of Engineering (BCOE) Senator',
+      company: 'Associated Students of the University of California',
+      period: 'May 2024 - Present',
+      description: '',
+    },
+    {
       title: 'Project and Workshop Coordinator',
       company: 'Gamespawn',
       period: 'March 2024 - Present',
       description: 'Oversee game development projects proposed by Project Leads from initial drafting to completion. Provide guidance and support to Project Leads and team members to ensure organization.',
+    },
+    {
+    title: 'Event Chair',
+    company: 'ACM',
+    period: 'February 2024 - Present',
+    description: '',
     },
     {
       title: 'Research Development Software Engineer Intern',

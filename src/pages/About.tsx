@@ -1,4 +1,5 @@
 import { Code, Palette, Zap } from 'lucide-react';
+import headshot from '../assets/allison_headshot.jpeg';
 import PageTransition from '../components/PageTransition';
 
 export default function About() {
@@ -15,11 +16,7 @@ export default function About() {
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div>
-              <img
-                src="src/assets/bunny-planet-stars.png"
-                alt="Profile"
-                className="rounded-lg shadow-lg"
-              />
+            <img src={headshot} alt="Profile" className="rounded-lg shadow-lg" />
             </div>
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">My Journey</h3>
