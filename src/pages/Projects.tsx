@@ -74,15 +74,6 @@ export default function Projects() {
                       <Github size={20} />
                       Code
                     </a>
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200"
-                    >
-                      <ExternalLink size={20} />
-                      Live Demo
-                    </a>
                   </div>
                 </div>
               </div>
