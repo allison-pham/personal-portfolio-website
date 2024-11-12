@@ -1,4 +1,4 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { Github } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 
 export default function Projects() {
