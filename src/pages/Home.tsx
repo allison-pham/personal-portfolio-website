@@ -20,7 +20,7 @@ export default function Home() {
                 to="/projects"
                 className="flex items-center gap-2 px-8 py-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors duration-200"
               >
-                View My Projects
+                View projects
                 <ArrowRight size={20} />
               </Link>
             </div>
