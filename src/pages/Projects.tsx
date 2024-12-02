@@ -6,7 +6,7 @@ export default function Projects() {
   const projects = [
     {
       title: 'Application Sorter',
-      description: 'Streamline the application review process',
+      description: 'Streamline the application review process.',
       image: whiteScreen,
       tech: ['Python', 'pandas'],
       github: 'https://github.com/allison-pham/application-sorter',
@@ -16,9 +16,9 @@ export default function Projects() {
 
     {
       title: 'Assistify',
-      description: 'Ask questions and receive AI customer support with quality responses',
+      description: 'Ask questions and receive AI customer support with quality responses.',
       image: whiteScreen,
-      tech: ['Next.js'],
+      tech: ['Next.js', 'Figma'],
       github: 'https://github.com/allison-pham/assistify',
       figma: '',
       live: '',
@@ -26,27 +26,27 @@ export default function Projects() {
 
     {
       title: 'BioQuest',
-      description: '',
+      description: 'Gamification meets sustainability.',
       image: whiteScreen,
-      tech: ['Figma'],
-      github: '',
-      figma: 'https://www.figma.com/design/EmRp2UPnq7q1kqdPxtoJWT/Designverse-2024%3A-YouFlow',
-      live: '',
-    },
-
-    {
-      title: 'Boilerplate',
-      description: '',
-      image: whiteScreen,
-      tech: [''],
+      tech: ['Next.js', 'JavaScript', 'Tailwind CSS', 'Figma'],
       github: '',
       figma: '',
       live: '',
     },
 
     {
+      title: 'Boilerplate',
+      description: 'Template for projects.',
+      image: whiteScreen,
+      tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+      github: 'https://github.com/allison-pham/boilerplate',
+      figma: '',
+      live: '',
+    },
+
+    {
       title: 'Books Data Analysis',
-      description: '',
+      description: 'Analyze book data to draw effective conclusions.',
       image: whiteScreen,
       tech: ['Python', 'Matplotlib', 'NumPy', 'pandas'],
       github: 'https://github.com/allison-pham/books-data-analysis',
@@ -56,9 +56,9 @@ export default function Projects() {
     
     {
       title: 'Cozy Chat',
-      description: 'An all-in-one learning x social media platform',
+      description: 'An all-in-one learning x social media platform.',
       image: whiteScreen,
-      tech: [''],
+      tech: ['Next.js', 'Figma'],
       github: '',
       figma: '',
       live: '',
@@ -66,59 +66,59 @@ export default function Projects() {
 
     {
       title: 'Eevi',
-      description: '',
+      description: 'The ultimate 0->1 software tool.',
       image: whiteScreen,
-      tech: [''],
-      github: '',
+      tech: ['Next.js', 'JavaScript', 'Figma'],
+      github: 'https://github.com/allison-pham/eevi-side-quests',
       figma: '',
       live: '',
     },
 
     {
       title: 'Frigerator Sim',
-      description: '',
+      description: 'Reduce food waste and increase efficiency.',
       image: whiteScreen,
-      tech: [''],
-      github: '',
+      tech: ['C++'],
+      github: 'https://github.com/pilafnoodle/FridgeSimulator',
       figma: '',
       live: '',
     },
 
     {
       title: 'Grocery in One',
-      description: 'Streamline grocery shopping with a few clicks',
+      description: 'Streamline grocery shopping with a few clicks.',
       image: whiteScreen,
-      tech: [''],
-      github: '',
+      tech: ['Python', 'scikit-learn', 'pandas'],
+      github: 'https://github.com/allison-pham/grocery-in-one',
       figma: '',
       live: '',
     },
 
     {
       title: 'Life Dev',
-      description: '',
+      description: 'Increase life optimization - set goals, improve study habits, plan out projects, and enhance skill development.',
       image: whiteScreen,
-      tech: [''],
-      github: '',
+      tech: ['C++'],
+      github: 'https://github.com/allison-pham/life-dev',
       figma: '',
       live: '',
     },
 
     {
       title: 'Quick Study',
-      description: '',
+      description: 'Reduce and optimize study sessions.',
       image: whiteScreen,
-      tech: [''],
-      github: '',
+      tech: ['Python'],
+      github: 'https://github.com/allison-pham/quick-study',
       figma: '',
       live: '',
     },
 
     {
       title: 'Thin Ice',
-      description: '',
+      description: 'Recreation of being a fire puffle that traverses an ice maze.',
       image: whiteScreen,
-      tech: [''],
+      tech: ['Java', 'libGDX'],
       github: '',
       figma: '',
       live: '',
@@ -126,9 +126,9 @@ export default function Projects() {
 
     {
       title: 'Weather Reminder System',
-      description: '',
+      description: 'Receive notifications of weather changes to prepare for all situations.',
       image: whiteScreen,
-      tech: [''],
+      tech: ['Python'],
       github: '',
       figma: '',
       live: '',
@@ -136,21 +136,21 @@ export default function Projects() {
 
     {
       title: 'Wifi QR Code Generator',
-      description: '',
+      description: 'Save wifi logins -> save time.',
       image: whiteScreen,
-      tech: [''],
-      github: '',
+      tech: ['Python'],
+      github: 'https://github.com/allison-pham/wifi-qr-code-generator',
       figma: '',
       live: '',
     },
 
     {
       title: 'YouFlow: Data Analyzer',
-      description: 'Analyze data for eco-friendly resources and tools',
+      description: 'Analyze data for eco-friendly resources and tools.',
       image: whiteScreen,
-      tech: [''],
+      tech: ['HTML/CSS', 'JavaScript', 'Python', 'Figma'],
       github: '',
-      figma: '',
+      figma: 'https://www.figma.com/design/EmRp2UPnq7q1kqdPxtoJWT/YouFlow',
       live: '',
     }
   ];
