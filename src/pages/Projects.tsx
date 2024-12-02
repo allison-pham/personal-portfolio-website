@@ -1,32 +1,158 @@
-import { Github } from 'lucide-react';
+import { Figma, Github } from 'lucide-react';
+import whiteScreen from '../assets/white_screen.jpg';
 import PageTransition from '../components/PageTransition';
 
 export default function Projects() {
   const projects = [
     {
       title: 'Application Sorter',
-      description: 'Automatically sorts applications based on specific criteria.',
-      image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&q=80&w=800',
+      description: 'Streamline the application review process',
+      image: whiteScreen,
       tech: ['Python', 'pandas'],
       github: 'https://github.com/allison-pham/application-sorter',
+      figma: '',
       live: '',
     },
+
     {
       title: 'Assistify',
-      description: '',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800',
+      description: 'Ask questions and receive AI customer support with quality responses',
+      image: whiteScreen,
       tech: ['Next.js'],
       github: 'https://github.com/allison-pham/assistify',
+      figma: '',
       live: '',
     },
+
+    {
+      title: 'BioQuest',
+      description: '',
+      image: whiteScreen,
+      tech: ['Figma'],
+      github: '',
+      figma: 'https://www.figma.com/design/EmRp2UPnq7q1kqdPxtoJWT/Designverse-2024%3A-YouFlow',
+      live: '',
+    },
+
+    {
+      title: 'Boilerplate',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
     {
       title: 'Books Data Analysis',
       description: '',
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=800',
+      image: whiteScreen,
       tech: ['Python', 'Matplotlib', 'NumPy', 'pandas'],
       github: 'https://github.com/allison-pham/books-data-analysis',
-      live: 'https://example.com',
+      figma: '',
+      live: '',
     },
+    
+    {
+      title: 'Cozy Chat',
+      description: 'An all-in-one learning x social media platform',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Eevi',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Frigerator Sim',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Grocery in One',
+      description: 'Streamline grocery shopping with a few clicks',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Life Dev',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Quick Study',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Thin Ice',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Weather Reminder System',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'Wifi QR Code Generator',
+      description: '',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    },
+
+    {
+      title: 'YouFlow: Data Analyzer',
+      description: 'Analyze data for eco-friendly resources and tools',
+      image: whiteScreen,
+      tech: [''],
+      github: '',
+      figma: '',
+      live: '',
+    }
   ];
 
   return (
@@ -65,15 +191,29 @@ export default function Projects() {
                     ))}
                   </div>
                   <div className="flex gap-4">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200"
-                    >
-                      <Github size={20} />
-                      Code
-                    </a>
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200"
+                      >
+                        <Github size={20} />
+                        Code
+                      </a>
+                    )}
+
+                    {project.figma && (
+                      <a
+                        href={project.figma}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-gray-600 hover:text-indigo-600 transition-colors duration-200"
+                      >
+                        <Figma size={20} />
+                        Design
+                      </a>
+                    )}
                   </div>
                 </div>
               </div>
