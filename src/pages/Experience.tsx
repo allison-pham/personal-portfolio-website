@@ -4,63 +4,65 @@ import PageTransition from '../components/PageTransition';
 export default function Experience() {
   const experiences = [
     {
-      title: 'Lead Systems Engineer (NASA LSPACE Program)',
-      company: 'NASA',
-      period: 'September 2024 - Present',
-      description: '',
-    },
-    {
-      title: 'Co-Founder and Chief Technology Officer',
-      company: 'InkFuse',
-      period: 'August 2024 - Present',
-      description: '',
-    },
-    {
-      title: 'Operations Lead',
+      title: 'UI/UX and Operations Lead',
       company: 'Citrus and Cutie Hack',
-      period: 'July 2024 - Present',
+      period: 'Jul 2024 - Present',
       description: '',
     },
+
     {
-      title: 'Bourns College of Engineering (BCOE) Senator',
+      title: 'College of Engineering Senator',
       company: 'Associated Students of the University of California',
       period: 'May 2024 - Present',
       description: '',
     },
+
     {
       title: 'Project and Workshop Coordinator',
       company: 'Gamespawn',
-      period: 'March 2024 - Present',
+      period: 'Mar 2024 - Present',
       description: 'Oversee game development projects proposed by Project Leads from initial drafting to completion. Provide guidance and support to Project Leads and team members to ensure organization.',
     },
+
     {
     title: 'Event Chair',
     company: 'ACM',
-    period: 'February 2024 - Present',
+    period: 'Feb 2024 - Present',
     description: '',
     },
+
+    {
+      title: 'Lead Systems Engineer (NASA LSPACE Program)',
+      company: 'NASA',
+      period: 'Sept - Nov 2024',
+      description: '',
+    },
+
     {
       title: 'Research Development Software Engineer Intern',
       company: 'Nucleo',
-      period: 'July - September 2024',
+      period: 'Jul - Sept 2024',
       description: 'Implemented AI solutions in the neurotech field.',
     },
+
     {
       title: 'Software Engineering Fellow',
       company: 'Headstarter',
-      period: 'July - September 2024',
+      period: 'Jul - Sept 2024',
       description: '',
     },
+
     {
-      title: 'Reader (Grader)',
+      title: 'Computer Science Grader',
       company: 'University of California, Riverside',
-      period: 'January - March 2024',
+      period: 'Jan - Mar 2024',
       description: 'Evaluated and graded student assignments, quizzes, and exams based on rubric. Offered support to students during lab hours to address their questions and concerns regarding the course (assignments and grades).',
     },
+
     {
       title: 'UI/UX Designer',
       company: 'DesignVerse',
-      period: 'October - December 2023',
+      period: 'Oct - Dec 2023',
       description: 'Created wireframes, interactive prototypes, and high-fidelity mockups, optimizing design workflows and decreasing development time.',
     },
   ];
