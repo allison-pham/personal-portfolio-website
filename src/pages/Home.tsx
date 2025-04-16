@@ -12,7 +12,7 @@ export default function Home() {
               I'm <span className="text-indigo-600">Allison Pham</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto">
-              A passionate developer and designer engineering through AI/ML, Cybersecurity, Software Engineering, and UI/UX.
+              Developer and designer engineering through AI/ML and software development to build innovative solutions.
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">

@@ -4,21 +4,14 @@ import PageTransition from '../components/PageTransition';
 export default function Experience() {
   const experiences = [
     {
-      title: 'Co-Founder and Chief Technology Officer',
-      company: 'InkFuse',
-      period: 'Aug 2024 - Present',
-      description: '',
-    },
-
-    {
-      title: 'Operations Lead',
+      title: 'UI/UX and Operations Lead',
       company: 'Citrus and Cutie Hack',
       period: 'Jul 2024 - Present',
       description: '',
     },
 
     {
-      title: 'Bourns College of Engineering (BCOE) Senator',
+      title: 'College of Engineering Senator',
       company: 'Associated Students of the University of California',
       period: 'May 2024 - Present',
       description: '',
@@ -60,7 +53,7 @@ export default function Experience() {
     },
 
     {
-      title: 'Reader (Grader)',
+      title: 'Computer Science Grader',
       company: 'University of California, Riverside',
       period: 'Jan - Mar 2024',
       description: 'Evaluated and graded student assignments, quizzes, and exams based on rubric. Offered support to students during lab hours to address their questions and concerns regarding the course (assignments and grades).',
